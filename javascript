@@ -1,3 +1,9 @@
+function closeContent() {
+                var a = document.getElementById('content');
+
+                a.style.padding = "0";
+                a.style.height = "0";
+
 function login (){
             var question = "enter username";
             var response = prompt(question);
